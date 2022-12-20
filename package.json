@@ -1,7 +1,6 @@
 {
-  "name": "ReactModule",
+  "name": "reactmodule",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/cli-platform-android": "^10.0.0",
     "react": "18.1.0",
     "react-native": "0.70.6"
   },
@@ -25,5 +25,21 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "reactnative library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshkrishnan4786/ReactModules.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-react-module"
+  ],
+  "author": "test",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshkrishnan4786/ReactModules/issues"
+  },
+  "homepage": "https://github.com/vigneshkrishnan4786/ReactModules#readme"
 }
